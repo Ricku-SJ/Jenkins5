@@ -35,7 +35,7 @@ WebDriver driver;
 	public void logout() throws InterruptedException
 	{
 		Reporter.log("Logout",true);
-		Thread.sleep(4000);
+		Thread.sleep(6000);
 		driver.findElement(By.id("logoutLink")).click();
 	
 	
